@@ -1,0 +1,46 @@
+
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+h3 {
+    max-width: 600px;
+    overflow: hidden;
+    font-size: 24px;
+
+}
+
+.wrapper__task {
+    padding: 100px;
+}
+
+.tasks {
+    max-width: 700px;
+    margin: 0 auto;
+
+    box-shadow: 0px 0px 2px 3px rgba(114, 114, 114, 0.249);
+    padding: 20px;
+}
+.tasksContent {
+    display: flex;
+    gap: 4px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px 0 0;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.taskContent {
+    display: flex;
+    gap: 5px;
+}
